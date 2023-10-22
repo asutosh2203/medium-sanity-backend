@@ -1,5 +1,5 @@
 export default {
-  name: 'following',
+  name: 'followings',
   title: 'Following',
   type: 'reference',
   to: { type: 'author' },

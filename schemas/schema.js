@@ -11,7 +11,7 @@ import blockContent from './blockContent'
 import comment from './comment'
 import appreciate from './appreciate'
 import follower from './follower'
-import following from './following'
+import followings from './following'
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
@@ -27,6 +27,6 @@ export default createSchema({
     comment,
     appreciate,
     follower,
-    following,
+    followings,
   ]),
 })

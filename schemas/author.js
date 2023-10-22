@@ -43,7 +43,7 @@ export default {
       name: 'followings',
       title: 'Following',
       type: 'array',
-      of: [{ type: 'following' }],
+      of: [{ type: 'followings' }],
     },
   ],
 }
